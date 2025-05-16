@@ -1,0 +1,92 @@
+
+import React from 'react';
+import { Card, CardContent } from '@/components/ui/card';
+
+const ResultCard = ({ number, text }: { number: string; text: string }) => (
+  <Card className="border-none shadow-lg bg-white">
+    <CardContent className="p-8 text-center">
+      <h3 className="text-4xl md:text-5xl font-bold text-hr-green mb-2">{number}</h3>
+      <p className="text-gray-700">{text}</p>
+    </CardContent>
+  </Card>
+);
+
+const Results = () => {
+  return (
+    <section id="resultados" className="section-padding bg-hr-green-light">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Resultados <span className="text-hr-green">Comprovados</span>
+          </h2>
+          <div className="w-20 h-1 bg-hr-green mx-auto mb-6"></div>
+          <p className="text-lg text-gray-700">
+            Números que demonstram a eficácia da minha metodologia e o impacto positivo nas empresas que atendo.
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <ResultCard 
+            number="+24" 
+            text="Projetos realizados com sucesso"
+          />
+          
+          <ResultCard 
+            number="+400 mil" 
+            text="Em lucros gerados para os clientes"
+          />
+          
+          <ResultCard 
+            number="87%" 
+            text="De retenção dos colaboradores contratados"
+          />
+          
+          <ResultCard 
+            number="35%" 
+            text="De aumento na produtividade das equipes"
+          />
+        </div>
+        
+        <div className="mt-16 bg-white p-8 rounded-xl shadow-lg">
+          <h3 className="text-2xl font-bold mb-6 text-center">Depoimentos de Clientes</h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-hr-gray p-6 rounded-lg">
+              <div className="flex items-center space-x-2 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-hr-green" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.784-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                ))}
+              </div>
+              <p className="italic mb-4">
+                "A consultoria do Gustavo transformou completamente nosso processo de recrutamento. Reduzimos o tempo de contratação em 40% e aumentamos significativamente a qualidade dos profissionais selecionados."
+              </p>
+              <p className="font-semibold">
+                Maria Silva, Diretora de RH - TechSolutions
+              </p>
+            </div>
+            
+            <div className="bg-hr-gray p-6 rounded-lg">
+              <div className="flex items-center space-x-2 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-hr-green" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.784-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                ))}
+              </div>
+              <p className="italic mb-4">
+                "Investir na consultoria do Gustavo foi uma das melhores decisões que tomamos. Sua metodologia nos ajudou a encontrar profissionais realmente alinhados com nossa cultura e objetivos."
+              </p>
+              <p className="font-semibold">
+                João Oliveira, CEO - InnovaGroup
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Results;
