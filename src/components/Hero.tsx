@@ -16,20 +16,20 @@ const Hero = () => {
               Consultor especializado em estratégias de recrutamento e seleção para conectar empresas com os melhores profissionais do mercado.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="btn-primary" size="lg">
-                Diagnóstico gratuito <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
+                <Button className="btn-primary" size="lg">
+                  Diagnóstico gratuito <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </a>
               <Button variant="outline" className="border-hr-green text-hr-green hover:bg-hr-green-light" size="lg">
                 Conhecer serviços
               </Button>
             </div>
           </div>
           <div className="relative">
-            <div className="absolute -top-6 -left-6 w-40 h-40 bg-hr-green-light rounded-full opacity-60 z-0"></div>
-            <div className="h-96 bg-hr-green-light/20 rounded-lg flex items-center justify-center shadow-lg relative z-10">
-              <p className="text-2xl text-hr-green font-semibold">Estratégias de Recrutamento Eficientes</p>
+            <div className="h-96 bg-hr-green-light/20 rounded-lg flex items-center justify-center relative z-10">
+              {/* Empty container with styling but no text */}
             </div>
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-hr-green-light rounded-full opacity-60 z-0"></div>
           </div>
         </div>
       </div>
