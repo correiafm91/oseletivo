@@ -13,10 +13,6 @@ const faqItems = [
     answer: "O processo começa com um diagnóstico gratuito para entender as necessidades da sua empresa. Em seguida, desenvolvemos um plano personalizado que inclui análise dos processos atuais, implementação de melhorias e acompanhamento dos resultados. Todo o projeto tem duração média de 3 a 4 semanas."
   },
   {
-    question: "Quanto tempo dura um projeto de consultoria?",
-    answer: "Cada projeto de consultoria tem duração média de 3 a 4 semanas para estruturar completamente sua empresa. Este prazo pode variar dependendo do tamanho da empresa e da complexidade dos desafios a serem resolvidos."
-  },
-  {
     question: "Quanto tempo leva para ver resultados?",
     answer: "Os primeiros resultados já podem ser observados nas primeiras semanas após a implementação das estratégias. Contudo, resultados mais consolidados e mensuráveis são percebidos entre 60 e 90 dias, quando os novos processos já estão completamente integrados à rotina da empresa."
   },

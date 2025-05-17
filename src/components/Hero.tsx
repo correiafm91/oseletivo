@@ -26,11 +26,9 @@ const Hero = () => {
           </div>
           <div className="relative">
             <div className="absolute -top-6 -left-6 w-40 h-40 bg-hr-green-light rounded-full opacity-60 z-0"></div>
-            <img 
-              src="https://i.postimg.cc/QxR2rCR3/491493619-913055980850280-3057480393520500498-n-1.jpg" 
-              alt="Método RH+ - Consultoria de Recrutamento" 
-              className="w-full h-auto object-cover rounded-lg shadow-xl z-10 relative"
-            />
+            <div className="h-96 bg-hr-green-light/20 rounded-lg flex items-center justify-center shadow-lg relative z-10">
+              <p className="text-2xl text-hr-green font-semibold">Estratégias de Recrutamento Eficientes</p>
+            </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-hr-green-light rounded-full opacity-60 z-0"></div>
           </div>
         </div>

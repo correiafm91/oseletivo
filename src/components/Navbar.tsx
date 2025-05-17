@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center">
               <span className="text-xl font-bold text-hr-black">
-                Método <span className="text-hr-green">RH+</span>
+                <span className="text-hr-green">Consultoria de RH</span>
               </span>
             </a>
           </div>
