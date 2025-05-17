@@ -16,7 +16,7 @@ const About = () => {
         <div className="bg-white p-8 md:p-12 rounded-xl shadow-lg">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              Sou <span className="font-semibold text-hr-green">Gustavo Correia</span>, especialista em recrutamento estratégico para empresas que não podem errar na hora de contratar.
+              Sou <span className="font-semibold text-hr-green">especialista em recrutamento estratégico</span> para empresas que não podem errar na hora de contratar.
             </p>
             
             <p className="text-lg leading-relaxed">

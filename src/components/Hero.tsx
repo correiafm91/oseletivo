@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="absolute -top-6 -left-6 w-40 h-40 bg-hr-green-light rounded-full opacity-60 z-0"></div>
             <img 
               src="https://i.postimg.cc/QxR2rCR3/491493619-913055980850280-3057480393520500498-n-1.jpg" 
-              alt="Gustavo Correia - Consultor de RH" 
+              alt="Método RH+ - Consultoria de Recrutamento" 
               className="w-full h-auto object-cover rounded-lg shadow-xl z-10 relative"
             />
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-hr-green-light rounded-full opacity-60 z-0"></div>
