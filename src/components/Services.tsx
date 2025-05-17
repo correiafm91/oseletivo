@@ -83,9 +83,6 @@ const Services = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <p className="text-lg font-medium mb-6">
-            Cada projeto de consultoria tem duração média de <span className="text-hr-green font-bold">3 a 4 semanas</span> para estruturar completamente sua empresa.
-          </p>
           <a href="#contato" className="btn-primary inline-block">Solicitar diagnóstico gratuito</a>
         </div>
       </div>
