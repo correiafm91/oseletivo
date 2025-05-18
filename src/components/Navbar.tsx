@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center">
               <span className="text-xl font-bold text-hr-black">
-                <span className="text-hr-green">Consultoria de RH</span>
+                <span className="text-hr-green">Seletivo</span>
               </span>
             </a>
           </div>
@@ -39,7 +39,9 @@ const Navbar = () => {
           </nav>
           
           <div className="hidden md:block">
-            <Button className="btn-primary">Diagnóstico gratuito</Button>
+            <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
+              <Button className="btn-primary">Fale comigo</Button>
+            </a>
           </div>
           
           <div className="md:hidden">
@@ -63,7 +65,9 @@ const Navbar = () => {
             <a href="#servicos" className="block px-3 py-2 rounded-md hover:bg-hr-green-light hover:text-hr-green">Serviços</a>
             <a href="#resultados" className="block px-3 py-2 rounded-md hover:bg-hr-green-light hover:text-hr-green">Resultados</a>
             <a href="#faq" className="block px-3 py-2 rounded-md hover:bg-hr-green-light hover:text-hr-green">FAQ</a>
-            <Button className="btn-primary w-full mt-3">Diagnóstico gratuito</Button>
+            <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
+              <Button className="btn-primary w-full mt-3">Fale comigo</Button>
+            </a>
           </div>
         </div>
       )}

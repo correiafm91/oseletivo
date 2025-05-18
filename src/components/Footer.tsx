@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           
           <p className="text-gray-400 text-sm">
-            © {currentYear} Todos os direitos reservados.
+            © {currentYear} Seletivo - Recrutamento e Seleção. Todos os direitos reservados.
           </p>
         </div>
       </div>

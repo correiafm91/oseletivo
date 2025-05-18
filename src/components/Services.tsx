@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { UserSearch, Briefcase, MessageSquare, CheckCheck } from 'lucide-react';
+import { Search, Users, Check, Star, Briefcase, TrendingUp } from 'lucide-react';
 
 const ServiceCard = ({ 
   title, 
@@ -37,53 +37,54 @@ const Services = () => {
           </h2>
           <div className="w-20 h-1 bg-hr-green mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Soluções personalizadas para aprimorar seus processos de recrutamento e seleção, 
-            garantindo que você encontre os melhores talentos para sua empresa.
+            Recrutamento e seleção de alto impacto para encontrar os profissionais ideais para cada posição na sua empresa.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ServiceCard 
-            title="Diagnóstico de Processos de R&S" 
-            description="Análise completa dos processos atuais de recrutamento e seleção da sua empresa, identificando pontos de melhoria e oportunidades para otimização."
-            icon={UserSearch}
+            title="Recrutamento Estratégico" 
+            description="Processo completo de busca e seleção, desde o mapeamento do perfil ideal até a entrega dos candidatos finalistas prontos para contratação."
+            icon={Search}
           />
           
           <ServiceCard 
-            title="Estratégias de Recrutamento" 
-            description="Desenvolvimento de estratégias personalizadas para atrair os melhores talentos, considerando as especificidades do seu negócio e do mercado."
+            title="Avaliação Comportamental" 
+            description="Análise aprofundada do perfil comportamental dos candidatos para garantir alinhamento perfeito com a cultura e valores da sua empresa."
+            icon={Users}
+            className="lg:translate-y-6"
+          />
+          
+          <ServiceCard 
+            title="Entrevistas por Competência" 
+            description="Método avançado de entrevistas que identifica com precisão as habilidades e competências essenciais para o sucesso na função."
+            icon={Check}
+          />
+          
+          <ServiceCard 
+            title="Recrutamento Especializado" 
+            description="Seleção de profissionais para posições estratégicas e técnicas que exigem conhecimentos específicos e experiência comprovada."
+            icon={Star}
+          />
+          
+          <ServiceCard 
+            title="Hunting de Talentos" 
+            description="Busca ativa de profissionais de alto desempenho que não estão ativamente procurando emprego, mas que têm o perfil perfeito para sua vaga."
             icon={Briefcase}
             className="lg:translate-y-6"
           />
           
           <ServiceCard 
-            title="Técnicas de Entrevista" 
-            description="Treinamento e implementação de técnicas avançadas de entrevista, garantindo a identificação de candidatos alinhados à cultura e objetivos da empresa."
-            icon={MessageSquare}
-          />
-          
-          <ServiceCard 
-            title="Mapeamento de Competências" 
-            description="Identificação e mapeamento das competências essenciais para cada posição, criando perfis ideais para guiar o processo seletivo."
-            icon={CheckCheck}
-          />
-          
-          <ServiceCard 
-            title="Onboarding Estratégico" 
-            description="Desenvolvimento de processos de integração eficientes, reduzindo o tempo de adaptação e aumentando a retenção de novos colaboradores."
-            icon={UserSearch}
-            className="lg:translate-y-6"
-          />
-          
-          <ServiceCard 
-            title="Consultoria Contínua" 
-            description="Acompanhamento contínuo da equipe de RH, oferecendo suporte e orientação para aprimorar constantemente os processos de gestão de pessoas."
-            icon={Briefcase}
+            title="Recrutamento para Startups" 
+            description="Processo adaptado para empresas em crescimento acelerado, focado em encontrar talentos versáteis e com mentalidade de crescimento."
+            icon={TrendingUp}
           />
         </div>
         
         <div className="mt-16 text-center">
-          <a href="#contato" className="btn-primary inline-block">Solicitar diagnóstico gratuito</a>
+          <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer" className="btn-primary inline-block">
+            Iniciar processo de recrutamento
+          </a>
         </div>
       </div>
     </section>

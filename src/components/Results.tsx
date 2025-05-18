@@ -21,29 +21,29 @@ const Results = () => {
           </h2>
           <div className="w-20 h-1 bg-hr-green mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Números que demonstram a eficácia da minha metodologia e o impacto positivo nas empresas que atendo.
+            Números que demonstram a eficácia do meu processo de recrutamento e seleção.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <ResultCard 
-            number="+24" 
-            text="Projetos realizados com sucesso"
+            number="+120" 
+            text="Profissionais selecionados com sucesso"
           />
           
           <ResultCard 
-            number="+400 mil" 
-            text="Em lucros gerados para os clientes"
+            number="95%" 
+            text="Taxa de aprovação nas contratações"
           />
           
           <ResultCard 
             number="87%" 
-            text="De retenção dos colaboradores contratados"
+            text="De retenção após 12 meses"
           />
           
           <ResultCard 
-            number="35%" 
-            text="De aumento na produtividade das equipes"
+            number="14 dias" 
+            text="Tempo médio para finalização do processo"
           />
         </div>
         
@@ -60,10 +60,10 @@ const Results = () => {
                 ))}
               </div>
               <p className="italic mb-4">
-                "A consultoria do Gustavo transformou completamente nosso processo de recrutamento. Reduzimos o tempo de contratação em 40% e aumentamos significativamente a qualidade dos profissionais selecionados."
+                "O processo de recrutamento foi extremamente eficiente. Em apenas duas semanas, conseguimos um profissional que superou todas as nossas expectativas e trouxe resultados imediatos."
               </p>
               <p className="font-semibold">
-                Maria Silva, Diretora de RH - TechSolutions
+                Maria Silva, CEO - TechSolutions
               </p>
             </div>
             
@@ -76,10 +76,10 @@ const Results = () => {
                 ))}
               </div>
               <p className="italic mb-4">
-                "Investir na consultoria do Gustavo foi uma das melhores decisões que tomamos. Sua metodologia nos ajudou a encontrar profissionais realmente alinhados com nossa cultura e objetivos."
+                "Depois de várias tentativas frustradas com outras empresas, finalmente encontramos os talentos certos. A metodologia de recrutamento é precisa e eficaz, trazendo candidatos perfeitamente alinhados ao que buscávamos."
               </p>
               <p className="font-semibold">
-                João Oliveira, CEO - InnovaGroup
+                João Oliveira, Diretor - InnovaGroup
               </p>
             </div>
           </div>

@@ -10,19 +10,19 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Encontre os <span className="text-hr-green">talentos certos</span> para sua empresa crescer
+              Contrate os <span className="text-hr-green">talentos certos</span> e transforme seu negócio
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-700">
-              Consultor especializado em estratégias de recrutamento e seleção para conectar empresas com os melhores profissionais do mercado.
+              Recrutamento e seleção especializado para empresas que buscam profissionais de alto desempenho e alinhados com sua cultura.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
                 <Button className="btn-primary" size="lg">
-                  Diagnóstico gratuito <ArrowRight className="ml-2 h-4 w-4" />
+                  Fale comigo agora <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
               <Button variant="outline" className="border-hr-green text-hr-green hover:bg-hr-green-light" size="lg">
-                Conhecer serviços
+                Ver processos
               </Button>
             </div>
           </div>

@@ -9,28 +9,28 @@ import {
 
 const faqItems = [
   {
-    question: "Como funciona o processo de consultoria?",
-    answer: "O processo começa com um diagnóstico gratuito para entender as necessidades da sua empresa. Em seguida, desenvolvemos um plano personalizado que inclui análise dos processos atuais, implementação de melhorias e acompanhamento dos resultados. Todo o projeto tem duração média de 3 a 4 semanas."
+    question: "Como funciona o processo de recrutamento e seleção?",
+    answer: "O processo começa com uma análise detalhada da vaga e da cultura da empresa. Em seguida, realizo a busca ativa de candidatos, triagem curricular, entrevistas por competência e avaliações comportamentais. Por fim, apresento os candidatos finalistas para a sua decisão final."
   },
   {
-    question: "Quanto tempo leva para ver resultados?",
-    answer: "Os primeiros resultados já podem ser observados nas primeiras semanas após a implementação das estratégias. Contudo, resultados mais consolidados e mensuráveis são percebidos entre 60 e 90 dias, quando os novos processos já estão completamente integrados à rotina da empresa."
+    question: "Quanto tempo leva para preencher uma vaga?",
+    answer: "O tempo médio para apresentação dos primeiros candidatos finalistas é de 7 a 14 dias, dependendo da complexidade da vaga. Vagas mais técnicas ou executivas podem levar um pouco mais de tempo para garantir a qualidade do processo."
   },
   {
-    question: "Você trabalha com empresas de todos os tamanhos?",
-    answer: "Sim, minha metodologia é adaptável para empresas de todos os portes, desde startups até grandes corporações. O que varia é a complexidade da implementação e o escopo do projeto, que são definidos de acordo com as necessidades específicas de cada organização."
+    question: "Quais tipos de vagas você atende?",
+    answer: "Trabalho com recrutamento e seleção para diversas áreas e níveis hierárquicos, desde posições operacionais até cargos executivos. Minha especialidade está em encontrar profissionais qualificados e alinhados com a cultura da empresa."
   },
   {
-    question: "O que é incluído no diagnóstico gratuito?",
-    answer: "O diagnóstico gratuito inclui uma análise inicial dos seus processos atuais de recrutamento e seleção, identificação dos principais pontos de melhoria e uma conversa estratégica para entender seus objetivos de negócio. Ao final, você recebe um relatório com recomendações iniciais."
+    question: "Como é feita a garantia do processo?",
+    answer: "Ofereço garantia de reposição caso o profissional contratado não atenda às expectativas nos primeiros meses de trabalho. Os termos específicos da garantia são discutidos durante a contratação do serviço, adaptados a cada caso."
   },
   {
-    question: "Como é feita a precificação dos serviços?",
-    answer: "A precificação é personalizada de acordo com o escopo do projeto, o tamanho da empresa e a complexidade dos desafios. Após o diagnóstico inicial, apresento uma proposta detalhada com todas as etapas do trabalho e o investimento necessário."
+    question: "Como é realizado o pagamento pelo serviço?",
+    answer: "O modelo de pagamento é flexível e pode ser adaptado às necessidades da sua empresa. Geralmente trabalhamos com um valor inicial e o restante após a contratação do profissional selecionado. Entre em contato para discutirmos a melhor opção para você."
   },
   {
-    question: "Você oferece acompanhamento após o término da consultoria?",
-    answer: "Sim, ofereço pacotes de acompanhamento periódico para garantir que as estratégias implementadas continuem gerando resultados positivos. Também estou disponível para ajustes e melhorias conforme as necessidades da empresa evoluem."
+    question: "Você atende empresas de todos os tamanhos?",
+    answer: "Sim, minha metodologia de recrutamento e seleção se adapta a empresas de todos os portes, desde startups até grandes corporações. O processo é personalizado para atender às necessidades específicas de cada negócio."
   }
 ];
 
@@ -44,7 +44,7 @@ const FAQ = () => {
           </h2>
           <div className="w-20 h-1 bg-hr-green mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Respostas para as dúvidas mais comuns sobre o meu trabalho de consultoria em recrutamento e seleção.
+            Respostas para as dúvidas mais comuns sobre o processo de recrutamento e seleção.
           </p>
         </div>
         

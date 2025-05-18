@@ -8,7 +8,7 @@ const About = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-hr-green">O talento certo transforma tudo.</span> Eu te ajudo a encontrá-lo.
+            <span className="text-hr-green">O talento certo transforma tudo.</span> Eu encontro para você.
           </h2>
           <div className="w-20 h-1 bg-hr-green mx-auto mb-6"></div>
         </div>
@@ -32,13 +32,13 @@ const About = () => {
             </p>
             
             <blockquote className="border-l-4 border-hr-green pl-4 italic text-gray-700">
-              "Acredito que o sucesso de uma empresa está diretamente ligado à qualidade das pessoas que 
-              nela trabalham. Minha missão é ajudar empresas a encontrarem os colaboradores certos para crescerem
-              juntos, de forma sustentável e duradoura."
+              "O sucesso de uma empresa depende das pessoas certas nos lugares certos. Meu papel é garantir que você encontre os profissionais que realmente farão diferença no seu negócio."
             </blockquote>
             
             <div className="pt-4 text-center">
-              <Button className="btn-primary">Agendar uma conversa</Button>
+              <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
+                <Button className="btn-primary">Iniciar recrutamento</Button>
+              </a>
             </div>
           </div>
         </div>
