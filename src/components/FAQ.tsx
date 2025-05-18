@@ -13,8 +13,8 @@ const faqItems = [
     answer: "O processo começa com uma análise detalhada da vaga e da cultura da empresa. Em seguida, realizo a busca ativa de candidatos, triagem curricular, entrevistas por competência e avaliações comportamentais. Por fim, apresento os candidatos finalistas para a sua decisão final."
   },
   {
-    question: "Quanto tempo leva para preencher uma vaga?",
-    answer: "O tempo médio para apresentação dos primeiros candidatos finalistas é de 7 a 14 dias, dependendo da complexidade da vaga. Vagas mais técnicas ou executivas podem levar um pouco mais de tempo para garantir a qualidade do processo."
+    question: "Quanto tempo leva para recrutar um profissional?",
+    answer: "O tempo médio para o processo completo de recrutamento e seleção é de até 3 semanas. Este prazo permite realizar todas as etapas com a qualidade necessária para encontrar o profissional ideal para sua empresa."
   },
   {
     question: "Quais tipos de vagas você atende?",
@@ -26,7 +26,7 @@ const faqItems = [
   },
   {
     question: "Como é realizado o pagamento pelo serviço?",
-    answer: "O modelo de pagamento é flexível e pode ser adaptado às necessidades da sua empresa. Geralmente trabalhamos com um valor inicial e o restante após a contratação do profissional selecionado. Entre em contato para discutirmos a melhor opção para você."
+    answer: "O modelo de pagamento inclui um valor inicial para começar o processo de recrutamento, seguido de uma comissão de cerca de 15% sobre o salário anual do profissional contratado. Este modelo garante o comprometimento com resultados e alinhamento de interesses."
   },
   {
     question: "Você atende empresas de todos os tamanhos?",
