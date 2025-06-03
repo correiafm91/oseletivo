@@ -39,7 +39,7 @@ const Navbar = () => {
           </nav>
           
           <div className="hidden md:block">
-            <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/umbomrh/" target="_blank" rel="noopener noreferrer">
               <Button className="btn-primary">Fale comigo</Button>
             </a>
           </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
             <a href="#servicos" className="block px-3 py-2 rounded-md hover:bg-hr-green-light hover:text-hr-green">Serviços</a>
             <a href="#resultados" className="block px-3 py-2 rounded-md hover:bg-hr-green-light hover:text-hr-green">Resultados</a>
             <a href="#faq" className="block px-3 py-2 rounded-md hover:bg-hr-green-light hover:text-hr-green">FAQ</a>
-            <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/umbomrh/" target="_blank" rel="noopener noreferrer">
               <Button className="btn-primary w-full mt-3">Fale comigo</Button>
             </a>
           </div>

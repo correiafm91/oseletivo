@@ -16,7 +16,7 @@ const Hero = () => {
               Para empresários que ainda não têm equipe de RH. Estruture todos os processos desde o início e evite dores de cabeça futuras com uma base sólida.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/umbomrh/" target="_blank" rel="noopener noreferrer">
                 <Button className="btn-primary" size="lg">
                   Estruturar meu RH <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>

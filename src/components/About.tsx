@@ -36,7 +36,7 @@ const About = () => {
             </blockquote>
             
             <div className="pt-4 text-center">
-              <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/umbomrh/" target="_blank" rel="noopener noreferrer">
                 <Button className="btn-primary">Implementar meu RH</Button>
               </a>
             </div>

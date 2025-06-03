@@ -13,7 +13,7 @@ const CTA = () => {
         <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
           Não espere os problemas aparecerem. Implemente um setor de RH completo e evite dores de cabeça futuras. Entre em contato agora mesmo!
         </p>
-        <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/umbomrh/" target="_blank" rel="noopener noreferrer">
           <Button 
             size="lg" 
             className="bg-white text-hr-green hover:bg-hr-green-light px-8 py-6 text-lg font-medium shadow-lg"

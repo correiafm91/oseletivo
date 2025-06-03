@@ -82,7 +82,7 @@ const Services = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer" className="btn-primary inline-block">
+          <a href="https://www.instagram.com/umbomrh/" target="_blank" rel="noopener noreferrer" className="btn-primary inline-block">
             Iniciar implementação do RH
           </a>
         </div>
