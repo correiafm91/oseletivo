@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { FileText, Users, Shield, TrendingUp, Settings, BookOpen } from 'lucide-react';
+import { FileText, Users, Shield, TrendingUp, Settings, BookOpen, UserPlus } from 'lucide-react';
 
 const ServiceCard = ({ 
   title, 
@@ -59,6 +59,13 @@ const Services = () => {
             title="Compliance Trabalhista" 
             description="Implementação de processos para garantir conformidade com todas as leis trabalhistas e evitar problemas futuros."
             icon={Shield}
+          />
+          
+          <ServiceCard 
+            title="Planejamento de Crescimento" 
+            description="Orientação sobre quais cargos serão necessários à medida que sua empresa cresce, incluindo cronograma e perfis de contratação."
+            icon={UserPlus}
+            className="lg:translate-y-6"
           />
           
           <ServiceCard 
