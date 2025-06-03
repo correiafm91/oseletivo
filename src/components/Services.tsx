@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Search, Users, Check, Star, Briefcase, TrendingUp } from 'lucide-react';
+import { FileText, Users, Shield, TrendingUp, Settings, BookOpen } from 'lucide-react';
 
 const ServiceCard = ({ 
   title, 
@@ -33,57 +33,57 @@ const Services = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Meus <span className="text-hr-green">Serviços</span>
+            Implementação Completa de <span className="text-hr-green">RH</span>
           </h2>
           <div className="w-20 h-1 bg-hr-green mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Recrutamento e seleção de alto impacto para encontrar os profissionais ideais para cada posição na sua empresa.
+            Tudo que sua empresa precisa para ter um setor de RH estruturado e funcionando desde o primeiro dia.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ServiceCard 
-            title="Recrutamento Estratégico" 
-            description="Processo completo de busca e seleção, desde o mapeamento do perfil ideal até a entrega dos candidatos finalistas prontos para contratação."
-            icon={Search}
+            title="Políticas e Procedimentos" 
+            description="Criação de manual do colaborador, código de conduta, políticas de RH e todos os procedimentos necessários para uma gestão clara e eficiente."
+            icon={FileText}
           />
           
           <ServiceCard 
-            title="Avaliação Comportamental" 
-            description="Análise aprofundada do perfil comportamental dos candidatos para garantir alinhamento perfeito com a cultura e valores da sua empresa."
+            title="Estrutura de Cargos e Salários" 
+            description="Desenvolvimento de plano de cargos, salários e benefícios alinhado ao mercado e à realidade da sua empresa."
             icon={Users}
             className="lg:translate-y-6"
           />
           
           <ServiceCard 
-            title="Entrevistas por Competência" 
-            description="Método avançado de entrevistas que identifica com precisão as habilidades e competências essenciais para o sucesso na função."
-            icon={Check}
+            title="Compliance Trabalhista" 
+            description="Implementação de processos para garantir conformidade com todas as leis trabalhistas e evitar problemas futuros."
+            icon={Shield}
           />
           
           <ServiceCard 
-            title="Recrutamento Especializado" 
-            description="Seleção de profissionais para posições estratégicas e técnicas que exigem conhecimentos específicos e experiência comprovada."
-            icon={Star}
+            title="Sistemas de Gestão" 
+            description="Escolha e implementação de softwares de RH, controle de ponto, folha de pagamento e gestão de pessoas."
+            icon={Settings}
           />
           
           <ServiceCard 
-            title="Hunting de Talentos" 
-            description="Busca ativa de profissionais de alto desempenho que não estão ativamente procurando emprego, mas que têm o perfil perfeito para sua vaga."
-            icon={Briefcase}
+            title="Processos de Avaliação" 
+            description="Criação de sistemática de avaliação de desempenho, feedback e desenvolvimento de colaboradores."
+            icon={TrendingUp}
             className="lg:translate-y-6"
           />
           
           <ServiceCard 
-            title="Recrutamento para Startups" 
-            description="Processo adaptado para empresas em crescimento acelerado, focado em encontrar talentos versáteis e com mentalidade de crescimento."
-            icon={TrendingUp}
+            title="Treinamento da Equipe" 
+            description="Capacitação dos gestores e colaboradores nos novos processos e ferramentas implementadas."
+            icon={BookOpen}
           />
         </div>
         
         <div className="mt-16 text-center">
           <a href="https://www.instagram.com/useletivo/" target="_blank" rel="noopener noreferrer" className="btn-primary inline-block">
-            Iniciar processo de recrutamento
+            Iniciar implementação do RH
           </a>
         </div>
       </div>

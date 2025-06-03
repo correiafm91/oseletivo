@@ -9,28 +9,28 @@ import {
 
 const faqItems = [
   {
-    question: "Como funciona o processo de recrutamento e seleção?",
-    answer: "O processo começa com uma análise detalhada da vaga e da cultura da empresa. Em seguida, realizo a busca ativa de candidatos, triagem curricular, entrevistas por competência e avaliações comportamentais. Por fim, apresento os candidatos finalistas para a sua decisão final."
+    question: "Quando devo implementar um setor de RH na minha empresa?",
+    answer: "O ideal é implementar desde o início, mesmo com poucos colaboradores. Quanto mais cedo você estruturar os processos, menos problemas terá no futuro. Empresas com mais de 5 colaboradores já precisam de uma estrutura básica de RH."
   },
   {
-    question: "Quanto tempo leva para recrutar um profissional?",
-    answer: "O tempo médio para o processo completo de recrutamento e seleção é de até 3 semanas. Este prazo permite realizar todas as etapas com a qualidade necessária para encontrar o profissional ideal para sua empresa."
+    question: "Quanto tempo leva para implementar um RH completo?",
+    answer: "O tempo médio para implementação completa é de até 60 dias. Este prazo inclui criação de políticas, implementação de sistemas, treinamentos e adequação de todos os processos necessários."
   },
   {
-    question: "Quais tipos de vagas você atende?",
-    answer: "Trabalho com recrutamento e seleção para diversas áreas e níveis hierárquicos, desde posições operacionais até cargos executivos. Minha especialidade está em encontrar profissionais qualificados e alinhados com a cultura da empresa."
+    question: "Minha empresa é pequena, preciso mesmo de RH estruturado?",
+    answer: "Sim! Empresas pequenas são as que mais se beneficiam de ter RH estruturado desde o início. Isso evita retrabalho, problemas trabalhistas e facilita muito o crescimento futuro da empresa."
   },
   {
-    question: "Como é feita a garantia do processo?",
-    answer: "Ofereço garantia de reposição caso o profissional contratado não atenda às expectativas nos primeiros meses de trabalho. Os termos específicos da garantia são discutidos durante a contratação do serviço, adaptados a cada caso."
+    question: "O que está incluído na implementação?",
+    answer: "Inclui criação de políticas internas, manual do colaborador, estrutura de cargos e salários, implementação de sistemas, compliance trabalhista, processos de avaliação e treinamento da equipe gestora."
   },
   {
-    question: "Como é realizado o pagamento pelo serviço?",
-    answer: "O modelo de pagamento inclui um valor inicial para começar o processo de recrutamento, seguido de uma comissão de cerca de 15% sobre o salário anual do profissional contratado. Este modelo garante o comprometimento com resultados e alinhamento de interesses."
+    question: "Como é realizado o pagamento pelo serviço de implementação?",
+    answer: "O investimento é calculado conforme o tamanho da empresa e complexidade da implementação. Trabalhamos com um valor inicial para começar o projeto, seguido de parcelas durante a implementação."
   },
   {
-    question: "Você atende empresas de todos os tamanhos?",
-    answer: "Sim, minha metodologia de recrutamento e seleção se adapta a empresas de todos os portes, desde startups até grandes corporações. O processo é personalizado para atender às necessidades específicas de cada negócio."
+    question: "Vocês atendem empresas de todos os setores?",
+    answer: "Sim, minha metodologia de implementação de RH se adapta a qualquer setor empresarial. Cada projeto é personalizado para atender às necessidades específicas do negócio e setor de atuação."
   }
 ];
 
@@ -44,7 +44,7 @@ const FAQ = () => {
           </h2>
           <div className="w-20 h-1 bg-hr-green mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Respostas para as dúvidas mais comuns sobre o processo de recrutamento e seleção.
+            Respostas para as dúvidas mais comuns sobre implementação de RH.
           </p>
         </div>
         

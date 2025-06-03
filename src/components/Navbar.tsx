@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center">
               <span className="text-xl font-bold text-hr-black">
-                <span className="text-hr-green">Seletivo</span>
+                <span className="text-hr-green">Implementação RH</span>
               </span>
             </a>
           </div>

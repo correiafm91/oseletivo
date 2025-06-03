@@ -21,34 +21,34 @@ const Results = () => {
           </h2>
           <div className="w-20 h-1 bg-hr-green mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Números que demonstram a eficácia do meu processo de recrutamento e seleção.
+            Números que demonstram o impacto da implementação completa de RH nas empresas.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <ResultCard 
-            number="+120" 
-            text="Profissionais selecionados com sucesso"
+            number="+50" 
+            text="Empresas com RH implementado"
           />
           
           <ResultCard 
-            number="95%" 
-            text="Taxa de aprovação nas contratações"
+            number="90%" 
+            text="Redução de problemas trabalhistas"
           />
           
           <ResultCard 
-            number="87%" 
-            text="De retenção após 12 meses"
+            number="85%" 
+            text="Melhoria na satisfação dos colaboradores"
           />
           
           <ResultCard 
-            number="14 dias" 
-            text="Tempo médio para finalização do processo"
+            number="60 dias" 
+            text="Tempo médio para implementação completa"
           />
         </div>
         
         <div className="mt-16 bg-white p-8 rounded-xl shadow-lg">
-          <h3 className="text-2xl font-bold mb-6 text-center">Depoimentos de Clientes</h3>
+          <h3 className="text-2xl font-bold mb-6 text-center">Depoimentos de Empresários</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-hr-gray p-6 rounded-lg">
@@ -60,10 +60,10 @@ const Results = () => {
                 ))}
               </div>
               <p className="italic mb-4">
-                "O processo de recrutamento foi extremamente eficiente. Em apenas duas semanas, conseguimos um profissional que superou todas as nossas expectativas e trouxe resultados imediatos."
+                "Implementar o RH desde o início foi a melhor decisão que tomei. Agora tenho processos claros, evitei problemas trabalhistas e minha equipe está muito mais engajada. Vale cada centavo investido."
               </p>
               <p className="font-semibold">
-                Maria Silva, CEO - TechSolutions
+                Carlos Mendes, CEO - TechStartup
               </p>
             </div>
             
@@ -76,10 +76,10 @@ const Results = () => {
                 ))}
               </div>
               <p className="italic mb-4">
-                "Depois de várias tentativas frustradas com outras empresas, finalmente encontramos os talentos certos. A metodologia de recrutamento é precisa e eficaz, trazendo candidatos perfeitamente alinhados ao que buscávamos."
+                "Antes eu vivia com medo de processos trabalhistas e não sabia como estruturar a gestão de pessoas. Agora tenho tudo organizado e posso focar no crescimento do negócio com tranquilidade."
               </p>
               <p className="font-semibold">
-                João Oliveira, Diretor - InnovaGroup
+                Ana Rodrigues, Fundadora - InovaServiços
               </p>
             </div>
           </div>
