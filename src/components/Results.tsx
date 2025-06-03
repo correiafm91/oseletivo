@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -25,7 +24,7 @@ const Results = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <ResultCard 
             number="+50" 
             text="Empresas com RH implementado"
@@ -39,11 +38,6 @@ const Results = () => {
           <ResultCard 
             number="85%" 
             text="Melhoria na satisfação dos colaboradores"
-          />
-          
-          <ResultCard 
-            number="60 dias" 
-            text="Tempo médio para implementação completa"
           />
         </div>
         
