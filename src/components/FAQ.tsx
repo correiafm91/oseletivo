@@ -14,7 +14,7 @@ const faqItems = [
   },
   {
     question: "Quanto tempo leva para implementar um RH completo?",
-    answer: "O tempo médio para implementação completa é de até 60 dias. Este prazo inclui criação de políticas, implementação de sistemas, treinamentos e adequação de todos os processos necessários."
+    answer: "O tempo médio para implementação completa é de 30 dias. Este prazo inclui criação de políticas, implementação de sistemas, treinamentos e adequação de todos os processos necessários."
   },
   {
     question: "Minha empresa é pequena, preciso mesmo de RH estruturado?",
